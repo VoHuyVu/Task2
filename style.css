@@ -1,0 +1,280 @@
+body,
+html {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    line-height: 23px;
+    color: #797979;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #797979;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: #707070;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+/* ---------------------- MENU ---------------------- */
+
+.header1 {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    border: none;
+    -o-box-shadow: 0px 0px 25px -10px;
+    -ms-box-shadow: 0px 0px 25px -10px;
+    -moz-box-shadow: 0px 0px 25px -10px;
+    -webkit-box-shadow: 0px 0px 25px -10px;
+    box-shadow: 0px 0px 25px -10px;
+}
+
+.container_header1 {
+    display: flex;
+    float: left;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.30);
+    z-index: 1;
+    position: relative;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.header1_left {
+    width: 20%;
+}
+
+.header1_right {
+    width: 78%;
+}
+
+/* Items of Menu */
+.container_menu {
+    position: relative;
+}
+
+/*LOGO*/
+.header1_left #header_logo {
+    width: 100%;
+}
+
+.container_menu ul {
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
+.container_menu ul li {
+    list-style: none;
+}
+
+.container_menu ul li a {
+    float: left;
+    padding: 0px 16px;
+    font-size: 16px;
+    color: #111111;
+}
+
+.container_menu ul li a:hover {
+    color: #f07677;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.container1 {
+    float: left;
+    width: 100%;
+}
+
+.slider {
+    float: left;
+    width: 100%;
+    width: 100%;
+    background-image: url(images/slider.jpg);
+    position: relative;
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+
+.croll_wrap {
+    float: left;
+    width: 100%;
+}
+
+/*----------------------- SNOW ----------------------- */
+#snow {
+    background: none;
+    background-image: url(images/sn1.png), url(images/sn2.png), url(images/sn3.png);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    animation: snow 10s linear infinite;
+}
+
+@keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+
+    50% {
+        background-position: 500px 500px, 100px 200px, -100px 150px;
+    }
+
+    100% {
+        background-position: 500px 1000px, 200px 400px, -100px 300px;
+    }
+}
+
+@-moz-keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+
+    50% {
+        background-position: 500px 500px, 100px 200px, -100px 150px;
+    }
+
+    100% {
+        background-position: 400px 1000px, 200px 400px, 100px 300px;
+    }
+}
+
+@-webkit-keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+
+    50% {
+        background-position: 500px 500px, 100px 200px, -100px 150px;
+    }
+
+    100% {
+        background-position: 500px 1000px, 200px 400px, -100px 300px;
+    }
+}
+
+@-ms-keyframes snow {
+    0% {
+        background-position: 0px 0px, 0px 0px, 0px 0px;
+    }
+
+    50% {
+        background-position: 500px 500px, 100px 200px, -100px 150px;
+    }
+
+    100% {
+        background-position: 500px 1000px, 200px 400px, -100px 300px;
+    }
+}
+
+/*----------------------- INFO IMG ----------------------- */
+.info {
+    float: left;
+    width: 50%;
+    padding: 300px 0px 200px 100px;
+    text-align: center;
+}
+
+.info img {
+    display: inline-block;
+    animation-duration: 2s;
+    animation-delay: 300ms;
+    animation-iteration-count: infinite;
+    animation-name: pulse;
+}
+
+.info h3 {
+    font-size: 30px;
+    color: #f07677;
+    text-transform: capitalize;
+    font-family: 'Lora', serif;
+}
+
+.info h1 {
+    font-size: 40px;
+    color: #111111;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    margin: 10px 0px 20px 0px;
+}
+
+/*---------(min-width: 992px) and (max-width: 1199px) --------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* ------------- MENU ------------- */
+    .container_header1 {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .container_menu ul li a {
+        float: left;
+        font-size: 14px;
+    }
+}
+
+/*---------(min-width: 768px) and (max-width: 991px) --------- */
+@media (min-width: 768px) and (max-width: 992px) {
+
+    /* ------------- MENU ------------- */
+    .container_header1 {
+        flex-direction: column;
+    }
+
+    .header1_left {
+        width: 100%;
+        text-align: center;
+    }
+    .header1_right {
+        width: 100%;
+        height: 50px;
+    }
+    .header1_left #header_logo {
+        width: 30%;
+    }
+
+    .container_header1 {
+        padding-bottom: 2%;
+    }
+
+    .container_menu ul {
+        width: 90%;
+        position: absolute;
+        left: 11%;
+    }
+
+    .container_menu ul li a {
+        font-size: 16px;
+        padding-left: 0px;
+    }
+}
+/*---------(max-width: 767px)) --------- */
+
+@media (max-width: 767px) {
+    .container_menu {display: none;}
+}
