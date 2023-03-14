@@ -6,14 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wedding</title>
+    <link rel="stylesheet" href="./owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl.theme.default.min.css">
+
+    <!-- MAIN CSS -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="open_menu.js"></script>
+    <!-- <link rel="stylesheet" href="slideShow.css"> -->
+
+    <!-- OWL CSS -->
+
+
+
+
 </head>
 
 <body>
-    <div class="croll_wrap" section-croll="0">
+    <div class="croll_wrap" id="section0">
         <div class="slider">
             <div id="snow"></div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="#section0">Home</a></li>
+                    <li><a href="#section1">About Us</a></li>
+                    <li><a href="#section2">Love story</a></li>
+                    <li><a href="#section3">Events</a></li>
+                    <li><a href="#section4">Rsvp</a></li>
+                    <li><a href="">Family</a></li>
+                    <li><a href="#section6">Gallery</a></li>
+                    <li><a href="#section7">Blog</a></li>
+                    <li><a href="#section8">Contact Us</a></li>
+                </ul>
+            </nav>
             <div class="header1">
+                <button id="toggle" class="wd_menu_btn" onclick="close_menu()"><i onclick="myFunction()" id="icons_menu"
+                        class="fa fa-bars" aria-hidden="true"></i></button>
                 <div class="container_header1">
                     <div class="header1_left">
                         <img id="header_logo" src="images/logo.png" alt="">
@@ -21,15 +50,15 @@
                     <div class="header1_right">
                         <div class="container_menu">
                             <ul>
-                                <li><a href="">Home</a></li>
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Love story</a></li>
-                                <li><a href="">Events</a></li>
-                                <li><a href="">Rsvp</a></li>
+                                <li><a href="#section0">Home</a></li>
+                                <li><a href="#section1">About Us</a></li>
+                                <li><a href="#section2">Love story</a></li>
+                                <li><a href="#section3">Events</a></li>
+                                <li><a href="#section4">Rsvp</a></li>
                                 <li><a href="">Family</a></li>
-                                <li><a href="">Gallery</a></li>
-                                <li><a href="">Blog</a></li>
-                                <li><a href="">Contact Us</a></li>
+                                <li><a href="#section6">Gallery</a></li>
+                                <li><a href="#section7">Blog</a></li>
+                                <li><a href="#section8">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -41,116 +70,690 @@
                 <h1>Save The Date</h1>
                 <img src="images/heading.png" alt="Heading" class="img-responsive">
             </div>
+            <div class="down">
+                <a href="#section1" id="down_bottom">
+                    <i class="fa fa-long-arrow-down" aria-hidden="true"></i>
+                </a>
+            </div>
         </div>
     </div>
-    
-    
-    Có lẽ phụ huynh nào cũng từng xuất hiện trong bài văn của con mình với vẻ ngoài và tính tình hoàn toàn không giống mình nhưng lại rất giống nhau.
 
-Ngày mới ra trường, khi chấm bài kiểm tra tập làm văn lớp sáu với đề bài "kể lại một việc tốt em đã làm", tôi đã ngạc nhiên khi hầu như cả lớp chỉ làm có hai việc tốt, một là dẫn bà cụ qua đường, hai là nhặt được chiếc ví và trả lại người mất.
+    <div class="croll_wrap" id="section1">
+        <div class="content1">
+            <h4>ARE GETTING MARRIED!</h4>
+            <h1>GROOM AND BRIDE</h1>
+            <img src="images/heading.png" alt="">
+        </div>
+        <div class="content2">
+            <div class="content2-1">
+                <img src="images/groom.png" alt="">
+                <h2>Mark Wills</h2>
+                <p>(S/o Mrs. Jeniffer &amp; Mr. Clark Wills)</p>
+                <ul>
+                    <li><a href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a></li>
+                    <li><a href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a></li>
+                    <li><a href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="content2-2">
+                <div class="content2-2_left">
+                    <h1>Invitation</h1>
+                    <div class="container_invi">
+                        <p>We inviting you and <br>
+                            your family on</p>
+                        <h3>SATURDAY</h3>
+                        <h2>20 May <br>
+                            2022</h2>
+                        <p>At St. Thomas's <br>
+                            Church, London, U.K.</p>
+                    </div>
+                    <div class="content2_btn">
+                        <a href="#section4" class="">RSVP</a>
+                    </div>
+                </div>
+                <div class="content2-2_right">
+                    <img src="images/bride.png" alt="">
+                    <h2>Jenny Bellucci</h2>
+                    <p>(D/o Mrs. Merry &amp; Mr. Jhon Bellucci)</p>
+                    <ul>
+                        <li><a href="#">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a></li>
+                        <li><a href="#">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a></li>
+                        <li><a href="#">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content3">
+            <div class="container_3">
+                <div class="content3_header">
+                    <h4>Don't miss it!</h4>
+                </div>
+                <div class="content3_content">
+                    <div class="container_content3_1_2">
+                        <div class="content3_1">
+                            <p id="content3_number">-130</p>
+                            <p id="content3_text">Days</p>
+                        </div>
+                        <div class="content3_2">
+                            <p id="content3_number">20</p>
+                            <p id="content3_text">Hours</p>
+                        </div>
+                    </div>
+                    <div class="container_content3_3_4">
+                        <div class="content3_3">
+                            <p id="content3_number">29</p>
+                            <p id="content3_text">Minutes</p>
+                        </div>
+                        <div class="content3_4">
+                            <p id="content3_number">14</p>
+                            <p id="content3_text">Seconds</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content3_footer">
+                    <h4>Until we get married!</h4>
+                </div>
+            </div>
+        </div>
+    </div>
 
-Điều khiến tôi không biết nên cười hay nên khóc là bà cụ trong bài nào cũng đứng ở ngã tư, cũng "tóc bạc phơ, dáng người gầy gầy, lưng cong cong, đôi mắt hiền từ". Chiếc ví nào cũng nhặt được trên đường đi học về, cũng "màu nâu đậm, hình vuông, bên trong có chứa nhiều giấy tờ quan trọng và một số tiền lớn".
+    <div class="croll_wrap" id="section2">
+        <div class="container_section2">
+            <div class="section2_header">
+                <h4>JENNY &amp; MARK</h4>
+                <h1>OUR TRUE LOVE STORY</h1>
+                <img src="images/heading.png" alt="">
+            </div>
+            <div class="section2_container">
+                <div class="section2_line">
+                </div>
+                <div class="container_dot1">
+                    <span></span>
+                </div>
 
-Chẳng lẽ cả lớp 40 em lại gặp đúng một bà cụ, nhặt được cùng một chiếc ví? Tất nhiên ai cũng biết là không thể. Đó là một minh chứng cho việc học sinh bị lệ thuộc vào văn mẫu.
+                <div class="container_dot2">
+                    <span></span>
+                </div>
 
-Thực trạng trên ở các lớp nhỏ, lên đến các lớp lớn hơn, khi chuyển sang các dạng văn khó hơn như nghị luận xã hội, nghị luận văn học, đề bài cũng phong phú hơn. Các em không thể chỉ học thuộc một vài bài văn mẫu tả cha mẹ, thầy cô, việc tốt, kỷ niệm vui buồn nữa mà phải phân tích, trình bày quan điểm của mình về các sự việc, hiện tượng trong xã hội hoặc các tư tưởng, đạo lý, tác phẩm văn học.
+                <div class="container_dot3">
+                    <span></span>
+                </div>
 
-Tưởng chừng văn mẫu sẽ không còn đất dụng võ ở các khối lớp lớn cấp hai, cấp ba, nhưng chúng vẫn chi phối rất nhiều khi học sinh học thuộc những mở bài với cấu trúc giới thiệu tác giả, tác phẩm, vấn đề nghị luận... Đối với đoạn thơ đó, câu chuyện đó, nhiều em biết cần phải thuộc được những câu văn phân tích có sẵn để dễ lấy điểm hơn.
+                <div class="container_dot4">
+                    <span></span>
+                </div>
 
-Tôi từng đọc được bình luận của học trò: "Đề thi thì ghi nêu cảm nhận của em, nhưng đáp án lại chấm theo ý của thầy cô". Thực ra, không phải chúng tôi chấm theo ý của thầy cô mà là chấm theo khung đáp án của Bộ, và để có điểm, ý tứ trong bài văn của các em phải phù hợp với đáp án. Đa số học sinh đều lựa chọn cách nhanh nhất để làm được điều đó, đó là học từ văn mẫu.
+                <div class="container_dot5">
+                    <span></span>
+                </div>
 
-Không phải đến thế hệ giáo viên chúng tôi, văn mẫu mới trở thành đề tài gây nhiều tranh cãi trong việc dạy và học. Văn mẫu có cả "công" và "tội".
+                <div class="section2_content1">
+                    <div class="section2_content1_left">
+                        <div class="content1_boxLeft">
+                            <div class="content1_boxLeft_1">
+                                <img src="images/story_1.jpg" alt="">
+                            </div>
+                            <div class="content1_boxLeft_2">
+                                <div class="content">
+                                    <h4>20 MAY 2010</h4>
+                                    <h1>Our First Met</h1>
+                                    <h4>THAT DAY CHANGED LIFE</h4>
+                                    <p>This is Photoshop's version of
+                                        Lorem Ipsum. Proin gravida
+                                        nibh vel velit auctor aliquet.
+                                        Aenean sollicitudin, lorem
+                                        quis bibendum auctor...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section2_content1_right">
+                        <div class="content1_boxRight">
+                            <div class="content1_boxRight_1">
+                                <div class="content">
+                                    <h4>20 MAY 2010</h4>
+                                    <h1>Our First Daling</h1>
+                                    <h4>OUR BEST DINNER EVER</h4>
+                                    <p>This is Photoshop's version of
+                                        Lorem Ipsum. Proin gravida
+                                        nibh vel velit auctor aliquet.
+                                        Aenean sollicitudin, lorem
+                                        quis bibendum auctor...</p>
+                                </div>
+                            </div>
+                            <div class="content1_boxRight_2">
+                                <img src="images/story_2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2_content2">
+                    <div class="section2_content2_left">
+                        <div class="content2_boxLeft">
+                            <div class="content2_boxLeft_1">
+                                <img src="images/story_3.jpg" alt="">
+                            </div>
+                            <div class="content2_boxLeft_2">
+                                <div class="content">
+                                    <h4>20 MAY 2010</h4>
+                                    <h1>Our First Met</h1>
+                                    <h4>THAT DAY CHANGED LIFE</h4>
+                                    <p>This is Photoshop's version of
+                                        Lorem Ipsum. Proin gravida
+                                        nibh vel velit auctor aliquet.
+                                        Aenean sollicitudin, lorem
+                                        quis bibendum auctor...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section2_content2_right">
+                        <div class="content2_boxRight">
+                            <div class="content2_boxRight_1">
+                                <div class="content">
+                                    <h4>20 MAY 2010</h4>
+                                    <h1>Our First Daling</h1>
+                                    <h4>OUR BEST DINNER EVER</h4>
+                                    <p>This is Photoshop's version of
+                                        Lorem Ipsum. Proin gravida
+                                        nibh vel velit auctor aliquet.
+                                        quis bibendum auctor...</p>
+                                </div>
+                            </div>
+                            <div class="content2_boxRight_2">
+                                <img src="images/story_4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2_content3">
+                    <div class="section2_content3_left">
+                        <div class="content3_boxLeft">
+                            <div class="content3_boxLeft_1">
+                                <img src="images/story_5.jpg" alt="">
+                            </div>
+                            <div class="content3_boxLeft_2">
+                                <div class="content">
+                                    <h4>20 MAY 2010</h4>
+                                    <h1>Our First Met</h1>
+                                    <h4>THAT DAY CHANGED LIFE</h4>
+                                    <p>This is Photoshop's version of
+                                        Lorem Ipsum. Proin gravida
+                                        nibh vel velit auctor aliquet.
+                                        Aenean sollicitudin, lorem
+                                        quis bibendum auctor...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section2_content3_right">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-Văn mẫu trước hết là những bài văn hay. Đọc một bài văn hay, con người có thể nâng tầm nhận thức và thẩm mĩ, có thể nảy sinh những cảm xúc bồi đắp tâm hồn, được gợi cảm hứng để làm điều tốt đẹp. Học sinh có thể nhìn vào đó học hỏi được cách triển khai bài của mình, cách dẫn dắt ý, dùng từ ngữ, gạn lọc ý tâm đắc hoặc diễn đạt sáng tạo. Nó giúp ích rất nhiều cho khả năng viết của các em.
+    <div class="croll_wrap" id="section3">
+        <div class="section3_header">
+            <h4>CEREMONY &amp; PARTY</h4>
+            <h1>THE WEDDING EVENT</h1>
+            <img src="images/heading.png" alt="">
+        </div>
+        <div class="section3_content">
+            <div class="section3_content_left">
+                <h2>Main Ceremony</h2>
+                <h1>7:30 pm</h1>
+                <h3>St. Thomas's <br>
+                    Church, London, <br>
+                    U.K.</h3>
+                <p>Proin gravida nibh vel velit auctor aliquet.
+                    Aenean sollicitudin, lorem quis bibendum auctor
+                    el velit auctor aliquet. Aenean sollicitudin,
+                    lorem quis
+                    <a href="#">Read More...</a>
+                </p>
+                <a href="#">
+                    <img src="images/map.png" alt="">
+                </a>
+            </div>
+            <div class="section3_content_right">
+                <div class="section3_content_right_1">
+                    <img src="images/event_img.gif" alt="">
+                    <div class="section3_btn">
+                        <a href="#" class="">rsvp</a>
+                    </div>
+                </div>
+                <div class="section3_content_right_2">
+                    <h2>Main Ceremony</h2>
+                    <h1>7:30 pm</h1>
+                    <h3>St. Thomas's <br>
+                        Church, London, <br>
+                        U.K.</h3>
+                    <p>Proin gravida nibh vel velit auctor aliquet.
+                        Aenean sollicitudin, lorem quis bibendum auctor
+                        el velit auctor aliquet. Aenean sollicitudin,
+                        lorem quis
+                        <a href="#">Read More...</a>
+                    </p>
+                    <a href="#">
+                        <img src="images/map.png" alt="">
+                    </a>
+                </div>
+            </div>
 
-Tuy nhiên, thực trạng đáng buồn là văn mẫu đã không dừng lại ở việc dùng để tham khảo mà bị lạm dụng quá đà. Ai cũng biết, khi học sinh học thuộc văn mẫu, sự sáng tạo sẽ bị triệt tiêu, cảm xúc chân thật cũng không còn. Vậy thì môn văn đâu còn có thể nuôi dưỡng tâm hồn như sứ mệnh ban đầu của nó? Hơn nữa, nếu việc dạy học văn còn phụ thuộc vào văn mẫu sẽ dẫn đến tình trạng em nào thuộc bài tốt hơn sẽ được điểm cao hơn. Điều này rất nguy hiểm vì người dạy khó đánh giá được năng lực thực chất của người học.
+        </div>
+    </div>
 
-Trả lời chất vấn trước Quốc hội sáng hôm qua, 11/11, Bộ trưởng Giáo dục Nguyễn Kim Sơn khẳng định sẽ "ngăn chặn, chấm dứt dạy theo văn mẫu", rằng ngành sẽ có hàng loạt biện pháp để điều chỉnh, chấm dứt văn mẫu - cũng là yếu tố chuyên môn để chấm dứt dạy thêm, học thêm.
+    <div class="croll_wrap" id="section4">
+        <div class="container_section4">
+            <div class="section4_header">
+                <h4>RSVP</h4>
+                <h1>BE OUR GUEST!</h1>
+                <img src="images/heading.png" alt="">
+            </div>
+            <div class="section4_content">
+                <div class="section4_content_left">
+                    <h2>You’re Invited <span>Jenny &amp; Mark</span> Wedding</h2>
+                    <h4>Please Rsvp Before 15 May 2022</h4>
+                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+                        lorem quis bibendum auctor This is Photoshop's version of Lorem Ipsum.</p>
+                    <h2><span>Gift Registry</span></h2>
+                    <p>What we want most for our wedding is to have our friends and family there to celebrate
+                        the occasion with us. If you would like to get us something, w’d love that too.
+                        you can find our registries here :</p>
 
-Quan điểm này đã thể hiện quyết tâm muốn khắc phục hạn chế trong giáo dục, xây dựng nền giáo dục tiến bộ. Là giáo viên dạy văn, tôi cho rằng chấm dứt tình trạng học theo văn mẫu, bài mẫu cần cả quá trình chứ không phải một sớm một chiều. Và chấm dứt không có nghĩa là hoàn toàn triệt tiêu văn mẫu.
+                    <div class="feedback__content">
+                        <div class="section4-owl owl-carousel owl-theme">
+                            <div class="item">
+                                <img src="images/gue1.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/gue2.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/gue3.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/gue1.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/gue2.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/gue3.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/gue1.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/gue1.png" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="images/gue2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-Chúng ta khó mà xóa hoàn toàn văn mẫu, bởi nhu cầu thưởng thức cái hay, cái đẹp của con người rất chính đáng. Cũng như việc ngắm bức tranh đẹp, nghe bản nhạc hay, việc đọc một bài văn đầy rung cảm và sâu sắc chắc chắn sẽ mang lại nhiều ích lợi cho tâm hồn. Văn mẫu vẫn sẽ tồn tại như đã từng, nhưng cách sử dụng trong nhà trường cần thay đổi. Lợi hay hại còn do mục đích và cách áp dụng, và ai là người làm được điều đó?
+                <div class="section4_content_right">
+                    <div class="container_form">
+                        <div class="form_header">
+                            <h1>Are You Attending?</h1>
+                            <h4>Rsvp Here!</h4>
+                        </div>
+                        <div class="form_1">
+                            <label for="">Full Name:</label> <br>
+                            <input type="text" id="input_name" placeholder="Full Name"> <br>
 
-Trước hết là giáo viên dạy văn, người trực tiếp giảng dạy và đánh giá năng lực học tập của học sinh. Người thầy dạy như thế nào để học sinh hiểu được văn mẫu chỉ là phương tiện tham khảo, không phải là mục đích. Nếu giáo viên nào cũng hiểu sâu sắc rằng, việc lệ thuộc vào văn mẫu sẽ làm giảm năng lực tư duy và diễn đạt bằng ngôn ngữ của học sinh, có thể các em sẽ đạt điểm cao trong các kỳ thi, nhưng sẽ làm giảm đi sự năng động và sáng tạo trong cuộc sống, họ sẽ biết điều chỉnh cách dạy.
+                            <label for="">Email:</label> <br>
+                            <input type="text" id="input_email" placeholder="Email">
+                            <div class="form2">
+                                <div class="form2_left">
+                                    <label for="">Guest:</label> <br>
+                                    <select name="guest_no" class="require">
+                                        <option value="0">00</option>
+                                        <option value="1">01</option>
+                                        <option value="2">02</option>
+                                    </select>
+                                </div>
+                                <div class="form2_right">
+                                    <label for="">Event:</label> <br>
+                                    <select name="event_name" class="require">
+                                        <option value="all">All Events</option>
+                                        <option value="party">Party Events</option>
+                                        <option value="marriage">Marriage Events</option>
+                                    </select>
+                                </div>
+                            </div>
 
-Ngoài giáo viên, để thực sự đổi thay, ngành giáo dục cũng cần thay đổi cách kiểm tra, đánh giá, ra đề, chấm điểm môn ngữ văn. Thực tế, đề thi môn văn dành cho các cấp học vẫn chưa có sự đột phá lớn, đa số vẫn xoay quanh các đề tài quen thuộc. Và cũng luôn sẵn có một kho văn mẫu phong phú trên Internet, học sinh chỉ cần gõ là ra.
-<div id="section1">
-    <a href="#section2" style="color: red;">To2</a>
-</div>
-Những năm gần đây, đề thi môn văn đã theo hướng gợi mở nhiều hơn, đã tạo không gian lớn hơn cho học sinh bày tỏ quan điểm của mình. Đáp án đưa ra cũng ghi rõ rằng, giám khảo cần tôn trọng quan điểm của học sinh và khuyến khích sự sáng tạo. Tuy nhiên, có lẽ người học trông chờ nhiều hơn thế, đó có thể là những đề văn hay, lạ, thậm chí là ngoài sách giáo khoa để phát huy vai trò tự học, tự nghiên cứu, mạnh dạn trình bày quan điểm và sự sáng tạo của các em.
+                            <h4>You missed out some fields.</h4>
+                            <button type="button" class="submitForm" form-type="inquiry">Send a Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-Đâu phải riêng Việt Nam có văn mẫu. Tôi đã đọc các đề thi văn và bài làm đạt điểm cao trong các kỳ thi của nước khác, được công khai để tham khảo như văn mẫu. Chúng hầu hết là những đề thi không có trong sách giáo khoa, yêu cầu tư duy khác biệt của mỗi thí sinh, và vì thế bài làm không ai giống ai. Rất nhiều học sinh đã thích thú, có em còn thử giải đề văn của nước ngoài hoặc tranh luận rất hăng say. Điều đó chứng tỏ rằng học sinh của chúng ta vẫn rất thích học văn, vẫn rất hứng thú khi được trình bày quan điểm và lập luận của bản thân.
+        </div>
+        <div class="section_insert1">
+            <div class="insert_contaner_1">
+                <div class="insert-owl owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="item1">
+                            <img src="./images/heart.png" alt="">
+                            <p>“ I look at you and see the rest of my life in front of my eyes. ”</p>
+                            <h4>~ Ajay S ~</h4>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item1">
+                            <img src="./images/heart.png" alt="">
+                            <p>“ Better to have loved and lost, than to have never loved ”</p>
+                            <h4>~ Akshay H ~</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-Và việc ngưỡng mộ những bài văn đó cũng chứng tỏ rằng, nhu cầu thưởng thức cái hay từ văn mẫu sẽ còn tồn tại mãi. Điều ta cần thay đổi chính là quy cách sử dụng văn mẫu trong giáo dục để chúng sẽ chỉ góp công chứ không còn là tội đồ.Có lẽ phụ huynh nào cũng từng xuất hiện trong bài văn của con mình với vẻ ngoài và tính tình hoàn toàn không giống mình nhưng lại rất giống nhau.
+    <div id="section5">
+        <div class="section5_header">
+            <h4>MOST IMP. PERSONS</h4>
+            <h1>LOVAVLE FAMILY</h1>
+            <img src="images/heading.png" alt="">
+        </div>
+    </div>
 
-Ngày mới ra trường, khi chấm bài kiểm tra tập làm văn lớp sáu với đề bài "kể lại một việc tốt em đã làm", tôi đã ngạc nhiên khi hầu như cả lớp chỉ làm có hai việc tốt, một là dẫn bà cụ qua đường, hai là nhặt được chiếc ví và trả lại người mất.
+    <div id="section6">
+        <div class="section6_header">
+            <h4>Jenny &amp; Mark</h4>
+            <h1>memorable photo gallery</h1>
+            <img src="images/heading.png" alt="">
+        </div>
+        <div class="section6_content">
+            <div class="section6-owl owl-carousel owl-theme">
+                <div class="item">
+                    <div class="container_seciton6_items">
+                        <div class="section6_left">
+                            <img src="images/image_1.jpg" alt="">
+                        </div>
+                        <div class="section6_right">
+                            <img src="images/image_small_1.jpg" alt="">
+                            <img id="img2" src="images/image_small_2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="container_seciton6_items">
+                        <div class="section6_left">
+                            <img src="images/image_2.jpg" alt="">
+                        </div>
+                        <div class="section6_right">
+                            <img src="images/image_small_3.jpg" alt="">
+                            <img id="img2" src="images/image_small_4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="container_seciton6_items">
+                        <div class="section6_left">
+                            <img src="images/image_3.jpg" alt="">
+                        </div>
+                        <div class="section6_right">
+                            <img src="images/image_small_5.jpg" alt="">
+                            <img id="img2" src="images/image_small_6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-Điều khiến tôi không biết nên cười hay nên khóc là bà cụ trong bài nào cũng đứng ở ngã tư, cũng "tóc bạc phơ, dáng người gầy gầy, lưng cong cong, đôi mắt hiền từ". Chiếc ví nào cũng nhặt được trên đường đi học về, cũng "màu nâu đậm, hình vuông, bên trong có chứa nhiều giấy tờ quan trọng và một số tiền lớn".
+            
+        </div>
 
-Chẳng lẽ cả lớp 40 em lại gặp đúng một bà cụ, nhặt được cùng một chiếc ví? Tất nhiên ai cũng biết là không thể. Đó là một minh chứng cho việc học sinh bị lệ thuộc vào văn mẫu.
+        
+    </div>
 
-Thực trạng trên ở các lớp nhỏ, lên đến các lớp lớn hơn, khi chuyển sang các dạng văn khó hơn như nghị luận xã hội, nghị luận văn học, đề bài cũng phong phú hơn. Các em không thể chỉ học thuộc một vài bài văn mẫu tả cha mẹ, thầy cô, việc tốt, kỷ niệm vui buồn nữa mà phải phân tích, trình bày quan điểm của mình về các sự việc, hiện tượng trong xã hội hoặc các tư tưởng, đạo lý, tác phẩm văn học.
+    <div id="section7">
+        <div class="section7_header">
+            <h4>Wedding Journal</h4>
+            <h1>from our blog</h1>
+            <img src="images/heading.png" alt="">
+        </div>
+        <div class="section7_content">
+            <div class="section7_content1">
+                <div class="section7_content1_left">
+                    <img src="images/img1_section7.jpg" alt="">
+                </div>
+                <div class="section7_content1_right">
+                    <h3>Planning Honeymoon Trip</h3>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-calendar-o" aria-hidden="true"></i> 20 May 2022
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-eye" aria-hidden="true"></i> 240 View
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 143 Likes</a>
+                        </li>
+                    </ul>
+                    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+                        sollicitudin,
+                        lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit..</p>
+                    <div class="wd_btn">
+                        <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
 
-Tưởng chừng văn mẫu sẽ không còn đất dụng võ ở các khối lớp lớn cấp hai, cấp ba, nhưng chúng vẫn chi phối rất nhiều khi học sinh học thuộc những mở bài với cấu trúc giới thiệu tác giả, tác phẩm, vấn đề nghị luận... Đối với đoạn thơ đó, câu chuyện đó, nhiều em biết cần phải thuộc được những câu văn phân tích có sẵn để dễ lấy điểm hơn.
+            <div class="section7_content2">
+                <div class="section7_content2_left">
+                    <h3>Planning Honeymoon Trip</h3>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-calendar-o" aria-hidden="true"></i> 20 May 2022
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-eye" aria-hidden="true"></i> 240 View
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 143 Likes</a>
+                        </li>
+                    </ul>
+                    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+                        sollicitudin,
+                        lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit..</p>
+                    <div class="wd_btn">
+                        <a href="#">read more</a>
+                    </div>
+                </div>
+                <div class="section7_content2_right">
+                    <img src="images/img2_section7.jpg" alt="">
+                </div>
+            </div>
 
-Tôi từng đọc được bình luận của học trò: "Đề thi thì ghi nêu cảm nhận của em, nhưng đáp án lại chấm theo ý của thầy cô". Thực ra, không phải chúng tôi chấm theo ý của thầy cô mà là chấm theo khung đáp án của Bộ, và để có điểm, ý tứ trong bài văn của các em phải phù hợp với đáp án. Đa số học sinh đều lựa chọn cách nhanh nhất để làm được điều đó, đó là học từ văn mẫu.
 
-Không phải đến thế hệ giáo viên chúng tôi, văn mẫu mới trở thành đề tài gây nhiều tranh cãi trong việc dạy và học. Văn mẫu có cả "công" và "tội".
+            <div class="section7_content1">
+                <div class="section7_content1_left">
+                    <img src="images/img3_section7.jpg" alt="">
+                </div>
+                <div class="section7_content1_right">
+                    <h3>Bachelor Party!</h3>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-calendar-o" aria-hidden="true"></i> 20 May 2022
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-eye" aria-hidden="true"></i> 240 View
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> 143 Likes</a>
+                        </li>
+                    </ul>
+                    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+                        sollicitudin,
+                        lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit..</p>
+                    <div class="wd_btn">
+                        <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section8">
+        <div class="container_section8">
+            <div class="section8_header">
+                <h4>IF ANY QUERY</h4>
+                <h1>CONTACT US</h1>
+                <img src="images/heading.png" alt="">
+            </div>
+            <div class="section8_content">
+                <form action="">
+                    <div class="contrainer_section8_form">
+                        <div class="form-left">
+                            <input type="text" placeholder="Full name" class="form_input"> <br>
+                            <input type="text" placeholder="Email" class="form_input"> <br>
+                            <input type="text" placeholder="Phone" class="form_input">
+                        </div>
+                        <div class="form-right">
+                            <textarea name="" id="" cols="30" rows="7" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="btn_section8">
+                        <button type="submit">SEND A MESSAGE</button>
+                    </div>
+                </form>
+            </div>
 
-Văn mẫu trước hết là những bài văn hay. Đọc một bài văn hay, con người có thể nâng tầm nhận thức và thẩm mĩ, có thể nảy sinh những cảm xúc bồi đắp tâm hồn, được gợi cảm hứng để làm điều tốt đẹp. Học sinh có thể nhìn vào đó học hỏi được cách triển khai bài của mình, cách dẫn dắt ý, dùng từ ngữ, gạn lọc ý tâm đắc hoặc diễn đạt sáng tạo. Nó giúp ích rất nhiều cho khả năng viết của các em.
-Tuy nhiên, thực trạng đáng buồn là văn mẫu đã không dừng lại ở việc dùng để tham khảo mà bị lạm dụng quá đà. Ai cũng biết, khi học sinh học thuộc văn mẫu, sự sáng tạo sẽ bị triệt tiêu, cảm xúc chân thật cũng không còn. Vậy thì môn văn đâu còn có thể nuôi dưỡng tâm hồn như sứ mệnh ban đầu của nó? Hơn nữa, nếu việc dạy học văn còn phụ thuộc vào văn mẫu sẽ dẫn đến tình trạng em nào thuộc bài tốt hơn sẽ được điểm cao hơn. Điều này rất nguy hiểm vì người dạy khó đánh giá được năng lực thực chất của người học.
+            <div class="section8_content2">
+                <div class="container_section8_content2">
+                    <div class="section8_left">
+                        <img src="images/img1_section8.PNG" alt="">
+                        <h2>Home</h2>
+                        <p>110, B Kalani Bagh, Dewas M.P. <br>
+                            INDIA #455001</p>
+                    </div>
+                    <div class="section8_mid">
+                        <img src="images/img2_section8.PNG" alt="">
+                        <h2>Phone</h2>
+                        <p>+ 91 12345 67890 <br> +91 12345 78945</p>
+                    </div>
+                    <div class="section8_right">
+                        <img src="images/img3_section8.PNG" alt="">
+                        <h2>Email Us</h2>
+                        <p>wedding@example.com <br>event@example.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-Trả lời chất vấn trước Quốc hội sáng hôm qua, 11/11, Bộ trưởng Giáo dục Nguyễn Kim Sơn khẳng định sẽ "ngăn chặn, chấm dứt dạy theo văn mẫu", rằng ngành sẽ có hàng loạt biện pháp để điều chỉnh, chấm dứt văn mẫu - cũng là yếu tố chuyên môn để chấm dứt dạy thêm, học thêm.
+    <div id="section9">
 
-Quan điểm này đã thể hiện quyết tâm muốn khắc phục hạn chế trong giáo dục, xây dựng nền giáo dục tiến bộ. Là giáo viên dạy văn, tôi cho rằng chấm dứt tình trạng học theo văn mẫu, bài mẫu cần cả quá trình chứ không phải một sớm một chiều. Và chấm dứt không có nghĩa là hoàn toàn triệt tiêu văn mẫu.
+        <div class="container_section9">
+            <div class="up">
+                <a href="#section0" id="up_bottom">
+                    <i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div class="container_section9_left">
+                <img src="images/flogo.png" alt="">
+            </div>
+            <div class="container_section9_right">
+                <p>@ Copyright 2022 All Rights Reserved. By Webstrot</p>
+            </div>
+        </div>
+    </div>
 
-Chúng ta khó mà xóa hoàn toàn văn mẫu, bởi nhu cầu thưởng thức cái hay, cái đẹp của con người rất chính đáng. Cũng như việc ngắm bức tranh đẹp, nghe bản nhạc hay, việc đọc một bài văn đầy rung cảm và sâu sắc chắc chắn sẽ mang lại nhiều ích lợi cho tâm hồn. Văn mẫu vẫn sẽ tồn tại như đã từng, nhưng cách sử dụng trong nhà trường cần thay đổi. Lợi hay hại còn do mục đích và cách áp dụng, và ai là người làm được điều đó?
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
 
-Trước hết là giáo viên dạy văn, người trực tiếp giảng dạy và đánh giá năng lực học tập của học sinh. Người thầy dạy như thế nào để học sinh hiểu được văn mẫu chỉ là phương tiện tham khảo, không phải là mục đích. Nếu giáo viên nào cũng hiểu sâu sắc rằng, việc lệ thuộc vào văn mẫu sẽ làm giảm năng lực tư duy và diễn đạt bằng ngôn ngữ của học sinh, có thể các em sẽ đạt điểm cao trong các kỳ thi, nhưng sẽ làm giảm đi sự năng động và sáng tạo trong cuộc sống, họ sẽ biết điều chỉnh cách dạy.
+    <!-- OWL JS -->
+    <script src="./owl.carousel.min.js"></script>
 
-Ngoài giáo viên, để thực sự đổi thay, ngành giáo dục cũng cần thay đổi cách kiểm tra, đánh giá, ra đề, chấm điểm môn ngữ văn. Thực tế, đề thi môn văn dành cho các cấp học vẫn chưa có sự đột phá lớn, đa số vẫn xoay quanh các đề tài quen thuộc. Và cũng luôn sẵn có một kho văn mẫu phong phú trên Internet, học sinh chỉ cần gõ là ra.
+    <Script>
+        $('.section4-owl').owlCarousel({
+            loop: true,
+            margin: 50,
+            autoplay: true,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </Script>
 
-Những năm gần đây, đề thi môn văn đã theo hướng gợi mở nhiều hơn, đã tạo không gian lớn hơn cho học sinh bày tỏ quan điểm của mình. Đáp án đưa ra cũng ghi rõ rằng, giám khảo cần tôn trọng quan điểm của học sinh và khuyến khích sự sáng tạo. Tuy nhiên, có lẽ người học trông chờ nhiều hơn thế, đó có thể là những đề văn hay, lạ, thậm chí là ngoài sách giáo khoa để phát huy vai trò tự học, tự nghiên cứu, mạnh dạn trình bày quan điểm và sự sáng tạo của các em.
+    <Script>
+        $('.insert-owl').owlCarousel({
+            loop: true,
+            autoplay: true,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </Script>
 
-Đâu phải riêng Việt Nam có văn mẫu. Tôi đã đọc các đề thi văn và bài làm đạt điểm cao trong các kỳ thi của nước khác, được công khai để tham khảo như văn mẫu. Chúng hầu hết là những đề thi không có trong sách giáo khoa, yêu cầu tư duy khác biệt của mỗi thí sinh, và vì thế bài làm không ai giống ai. Rất nhiều học sinh đã thích thú, có em còn thử giải đề văn của nước ngoài hoặc tranh luận rất hăng say. Điều đó chứng tỏ rằng học sinh của chúng ta vẫn rất thích học văn, vẫn rất hứng thú khi được trình bày quan điểm và lập luận của bản thân.
+    <Script>
+        $('.section6-owl').owlCarousel({
+            loop: true,
+            autoplay: true,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </Script>
 
-Và việc ngưỡng mộ những bài văn đó cũng chứng tỏ rằng, nhu cầu thưởng thức cái hay từ văn mẫu sẽ còn tồn tại mãi. Điều ta cần thay đổi chính là quy cách sử dụng văn mẫu trong giáo dục để chúng sẽ chỉ góp công chứ không còn là tội đồ.Có lẽ phụ huynh nào cũng từng xuất hiện trong bài văn của con mình với vẻ ngoài và tính tình hoàn toàn không giống mình nhưng lại rất giống nhau.
-
-Ngày mới ra trường, khi chấm bài kiểm tra tập làm văn lớp sáu với đề bài "kể lại một việc tốt em đã làm", tôi đã ngạc nhiên khi hầu như cả lớp chỉ làm có hai việc tốt, một là dẫn bà cụ qua đường, hai là nhặt được chiếc ví và trả lại người mất.
-
-Điều khiến tôi không biết nên cười hay nên khóc là bà cụ trong bài nào cũng đứng ở ngã tư, cũng "tóc bạc phơ, dáng người gầy gầy, lưng cong cong, đôi mắt hiền từ". Chiếc ví nào cũng nhặt được trên đường đi học về, cũng "màu nâu đậm, hình vuông, bên trong có chứa nhiều giấy tờ quan trọng và một số tiền lớn".
-
-Chẳng lẽ cả lớp 40 em lại gặp đúng một bà cụ, nhặt được cùng một chiếc ví? Tất nhiên ai cũng biết là không thể. Đó là một minh chứng cho việc học sinh bị lệ thuộc vào văn mẫu.
-
-Thực trạng trên ở các lớp nhỏ, lên đến các lớp lớn hơn, khi chuyển sang các dạng văn khó hơn như nghị luận xã hội, nghị luận văn học, đề bài cũng phong phú hơn. Các em không thể chỉ học thuộc một vài bài văn mẫu tả cha mẹ, thầy cô, việc tốt, kỷ niệm vui buồn nữa mà phải phân tích, trình bày quan điểm của mình về các sự việc, hiện tượng trong xã hội hoặc các tư tưởng, đạo lý, tác phẩm văn học.
-
-Tưởng chừng văn mẫu sẽ không còn đất dụng võ ở các khối lớp lớn cấp hai, cấp ba, nhưng chúng vẫn chi phối rất nhiều khi học sinh học thuộc những mở bài với cấu trúc giới thiệu tác giả, tác phẩm, vấn đề nghị luận... Đối với đoạn thơ đó, câu chuyện đó, nhiều em biết cần phải thuộc được những câu văn phân tích có sẵn để dễ lấy điểm hơn.
-
-Tôi từng đọc được bình luận của học trò: "Đề thi thì ghi nêu cảm nhận của em, nhưng đáp án lại chấm theo ý của thầy cô". Thực ra, không phải chúng tôi chấm theo ý của thầy cô mà là chấm theo khung đáp án của Bộ, và để có điểm, ý tứ trong bài văn của các em phải phù hợp với đáp án. Đa số học sinh đều lựa chọn cách nhanh nhất để làm được điều đó, đó là học từ văn mẫu.
-
-Không phải đến thế hệ giáo viên chúng tôi, văn mẫu mới trở thành đề tài gây nhiều tranh cãi trong việc dạy và học. Văn mẫu có cả "công" và "tội".
-
-Văn mẫu trước hết là những bài văn hay. Đọc một bài văn hay, con người có thể nâng tầm nhận thức và thẩm mĩ, có thể nảy sinh những cảm xúc bồi đắp tâm hồn, được gợi cảm hứng để làm điều tốt đẹp. Học sinh có thể nhìn vào đó học hỏi được cách triển khai bài của mình, cách dẫn dắt ý, dùng từ ngữ, gạn lọc ý tâm đắc hoặc diễn đạt sáng tạo. Nó giúp ích rất nhiều cho khả năng viết của các em.
-
-Tuy nhiên, thực trạng đáng buồn là văn mẫu đã không dừng lại ở việc dùng để tham khảo mà bị lạm dụng quá đà. Ai cũng biết, khi học sinh học thuộc văn mẫu, sự sáng tạo sẽ bị triệt tiêu, cảm xúc chân thật cũng không còn. Vậy thì môn văn đâu còn có thể nuôi dưỡng tâm hồn như sứ mệnh ban đầu của nó? Hơn nữa, nếu việc dạy học văn còn phụ thuộc vào văn mẫu sẽ dẫn đến tình trạng em nào thuộc bài tốt hơn sẽ được điểm cao hơn. Điều này rất nguy hiểm vì người dạy khó đánh giá được năng lực thực chất của người học.
-
-Trả lời chất vấn trước Quốc hội sáng hôm qua, 11/11, Bộ trưởng Giáo dục Nguyễn Kim Sơn khẳng định sẽ "ngăn chặn, chấm dứt dạy theo văn mẫu", rằng ngành sẽ có hàng loạt biện pháp để điều chỉnh, chấm dứt văn mẫu - cũng là yếu tố chuyên môn để chấm dứt dạy thêm, học thêm.
-
-Quan điểm này đã thể hiện quyết tâm muốn khắc phục hạn chế trong giáo dục, xây dựng nền giáo dục tiến bộ. Là giáo viên dạy văn, tôi cho rằng chấm dứt tình trạng học theo văn mẫu, bài mẫu cần cả quá trình chứ không phải một sớm một chiều. Và chấm dứt không có nghĩa là hoàn toàn triệt tiêu văn mẫu.
-
-Chúng ta khó mà xóa hoàn toàn văn mẫu, bởi nhu cầu thưởng thức cái hay, cái đẹp của con người rất chính đáng. Cũng như việc ngắm bức tranh đẹp, nghe bản nhạc hay, việc đọc một bài văn đầy rung cảm và sâu sắc chắc chắn sẽ mang lại nhiều ích lợi cho tâm hồn. Văn mẫu vẫn sẽ tồn tại như đã từng, nhưng cách sử dụng trong nhà trường cần thay đổi. Lợi hay hại còn do mục đích và cách áp dụng, và ai là người làm được điều đó?
-<div id="section2">
-    <a href="#section1" style="color: red;">To 1</a>
-</div>
-Trước hết là giáo viên dạy văn, người trực tiếp giảng dạy và đánh giá năng lực học tập của học sinh. Người thầy dạy như thế nào để học sinh hiểu được văn mẫu chỉ là phương tiện tham khảo, không phải là mục đích. Nếu giáo viên nào cũng hiểu sâu sắc rằng, việc lệ thuộc vào văn mẫu sẽ làm giảm năng lực tư duy và diễn đạt bằng ngôn ngữ của học sinh, có thể các em sẽ đạt điểm cao trong các kỳ thi, nhưng sẽ làm giảm đi sự năng động và sáng tạo trong cuộc sống, họ sẽ biết điều chỉnh cách dạy.
-
-Ngoài giáo viên, để thực sự đổi thay, ngành giáo dục cũng cần thay đổi cách kiểm tra, đánh giá, ra đề, chấm điểm môn ngữ văn. Thực tế, đề thi môn văn dành cho các cấp học vẫn chưa có sự đột phá lớn, đa số vẫn xoay quanh các đề tài quen thuộc. Và cũng luôn sẵn có một kho văn mẫu phong phú trên Internet, học sinh chỉ cần gõ là ra.
-
-Những năm gần đây, đề thi môn văn đã theo hướng gợi mở nhiều hơn, đã tạo không gian lớn hơn cho học sinh bày tỏ quan điểm của mình. Đáp án đưa ra cũng ghi rõ rằng, giám khảo cần tôn trọng quan điểm của học sinh và khuyến khích sự sáng tạo. Tuy nhiên, có lẽ người học trông chờ nhiều hơn thế, đó có thể là những đề văn hay, lạ, thậm chí là ngoài sách giáo khoa để phát huy vai trò tự học, tự nghiên cứu, mạnh dạn trình bày quan điểm và sự sáng tạo của các em.
-
-Đâu phải riêng Việt Nam có văn mẫu. Tôi đã đọc các đề thi văn và bài làm đạt điểm cao trong các kỳ thi của nước khác, được công khai để tham khảo như văn mẫu. Chúng hầu hết là những đề thi không có trong sách giáo khoa, yêu cầu tư duy khác biệt của mỗi thí sinh, và vì thế bài làm không ai giống ai. Rất nhiều học sinh đã thích thú, có em còn thử giải đề văn của nước ngoài hoặc tranh luận rất hăng say. Điều đó chứng tỏ rằng học sinh của chúng ta vẫn rất thích học văn, vẫn rất hứng thú khi được trình bày quan điểm và lập luận của bản thân.
-
-Và việc ngưỡng mộ những bài văn đó cũng chứng tỏ rằng, nhu cầu thưởng thức cái hay từ văn mẫu sẽ còn tồn tại mãi. Điều ta cần thay đổi chính là quy cách sử dụng văn mẫu trong giáo dục để chúng sẽ chỉ góp công chứ không còn là tội đồ.
 </body>
 
 </html>
