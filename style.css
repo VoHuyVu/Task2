@@ -2996,4 +2996,9 @@ p {
         margin-left: 0;
         width: 90%;
     }
+    /* -------------- SECTION INSERT ---------------- */
+    .section_insert1 .item1 {
+        width: 100%;
+        margin-left: 10px;
+    } 
 }
